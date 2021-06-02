@@ -1,0 +1,716 @@
+<Days>
+    <Sunday>
+        <Daytime>
+            <t1 name="Sun">
+                <TimeStart>04:54</TimeStart>
+                <TimeEnd>06:03</TimeEnd>
+            </t1>
+            <t2 name="Venus">
+                <TimeStart>06:03</TimeStart>
+                <TimeEnd>07:13</TimeEnd>
+            </t2>
+            <t3 name="Mercury">
+                <TimeStart>07:13</TimeStart>
+                <TimeEnd>08:23</TimeEnd>
+            </t3>
+            <t4 name="Moon">
+                <TimeStart>08:23</TimeStart>
+                <TimeEnd>09:32</TimeEnd>
+            </t4>
+            <t5 name="Saturn">
+                <TimeStart>09:32</TimeStart>
+                <TimeEnd>10:42</TimeEnd>
+            </t5>
+            <t6 name="Jupiter">
+                <TimeStart>10:42</TimeStart>
+                <TimeEnd>11:52</TimeEnd>
+            </t6>
+            <t7 name="Mars">
+                <TimeStart>11:52</TimeStart>
+                <TimeEnd>13:01</TimeEnd>
+            </t7>
+            <t8 name="Sun">
+                <TimeStart>13:01</TimeStart>
+                <TimeEnd>14:11</TimeEnd>
+            </t8>
+            <t9 name="Venus">
+                <TimeStart>14:11</TimeStart>
+                <TimeEnd>15:21</TimeEnd>
+            </t9>
+            <t10 name="Mercury">
+                <TimeStart>15:21</TimeStart>
+                <TimeEnd>16:30</TimeEnd>
+            </t10>
+            <t11 name="Moon">
+                <TimeStart>16:30</TimeStart>
+                <TimeEnd>17:40</TimeEnd>
+            </t11>
+            <t12 name="Saturn">
+                <TimeStart>17:40</TimeStart>
+                <TimeEnd>18:50</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Jupiter">
+                <TimeStart>18:55</TimeStart>
+                <TimeEnd>19:46</TimeEnd>
+            </t1>
+            <t2 name="Mars">
+                <TimeStart>19:46</TimeStart>
+                <TimeEnd>20:37</TimeEnd>
+            </t2>
+            <t3 name="Sun">
+                <TimeStart>20:37</TimeStart>
+                <TimeEnd>21:28</TimeEnd>
+            </t3>
+            <t4 name="Venus">
+                <TimeStart>21:28</TimeStart>
+                <TimeEnd>22:19</TimeEnd>
+            </t4>
+            <t5 name="Mercury">
+                <TimeStart>22:19</TimeStart>
+                <TimeEnd>23:10</TimeEnd>
+            </t5>
+            <t6 name="Moon">
+                <TimeStart>23:10</TimeStart>
+                <TimeEnd>00:01</TimeEnd>
+            </t6>
+            <t7 name="Saturn">
+                <TimeStart>00:01</TimeStart>
+                <TimeEnd>00:52</TimeEnd>
+            </t7>
+            <t8 name="Jupiter">
+                <TimeStart>00:52</TimeStart>
+                <TimeEnd>01:43</TimeEnd>
+            </t8>
+            <t9 name="Mars">
+                <TimeStart>01:43</TimeStart>
+                <TimeEnd>02:34</TimeEnd>
+            </t9>
+            <t10 name="Sun">
+                <TimeStart>02:34</TimeStart>
+                <TimeEnd>03:25</TimeEnd>
+            </t10>
+            <t11 name="Venus">
+                <TimeStart>03:25</TimeStart>
+                <TimeEnd>04:16</TimeEnd>
+            </t11>
+            <t12 name="Mercury">
+                <TimeStart>04:16</TimeStart>
+                <TimeEnd>05:07</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Sunday>
+    <Monday>
+        <Daytime>
+            <t1 name="Moon">
+                <TimeStart>04:54</TimeStart>
+                <TimeEnd>06:03</TimeEnd>
+            </t1>
+            <t2 name="Saturn">
+                <TimeStart>06:03</TimeStart>
+                <TimeEnd>07:13</TimeEnd>
+            </t2>
+            <t3 name="Jupiter">
+                <TimeStart>07:13</TimeStart>
+                <TimeEnd>08:23</TimeEnd>
+            </t3>
+            <t4 name="Mars">
+                <TimeStart>08:23</TimeStart>
+                <TimeEnd>09:32</TimeEnd>
+            </t4>
+            <t5 name="Sun">
+                <TimeStart>09:32</TimeStart>
+                <TimeEnd>10:42</TimeEnd>
+            </t5>
+            <t6 name="Venus">
+                <TimeStart>10:42</TimeStart>
+                <TimeEnd>11:52</TimeEnd>
+            </t6>
+            <t7 name="Mercury">
+                <TimeStart>11:52</TimeStart>
+                <TimeEnd>13:01</TimeEnd>
+            </t7>
+            <t8 name="Moon">
+                <TimeStart>13:01</TimeStart>
+                <TimeEnd>14:11</TimeEnd>
+            </t8>
+            <t9 name="Saturn">
+                <TimeStart>14:11</TimeStart>
+                <TimeEnd>15:21</TimeEnd>
+            </t9>
+            <t10 name="Jupiter">
+                <TimeStart>15:21</TimeStart>
+                <TimeEnd>16:30</TimeEnd>
+            </t10>
+            <t11 name="Mars">
+                <TimeStart>16:30</TimeStart>
+                <TimeEnd>17:40</TimeEnd>
+            </t11>
+            <t12 name="Sun">
+                <TimeStart>17:40</TimeStart>
+                <TimeEnd>18:50</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Venus">
+                <TimeStart>18:50</TimeStart>
+                <TimeEnd>19:40</TimeEnd>
+            </t1>
+            <t2 name="Mercury">
+                <TimeStart>19:40</TimeStart>
+                <TimeEnd>20:30</TimeEnd>
+            </t2>
+            <t3 name="Moon">
+                <TimeStart>20:30</TimeStart>
+                <TimeEnd>21:21</TimeEnd>
+            </t3>
+            <t4 name="Saturn">
+                <TimeStart>21:21</TimeStart>
+                <TimeEnd>22:11</TimeEnd>
+            </t4>
+            <t5 name="Jupiter">
+                <TimeStart>22:11</TimeStart>
+                <TimeEnd>23:01</TimeEnd>
+            </t5>
+            <t6 name="Mars">
+                <TimeStart>23:01</TimeStart>
+                <TimeEnd>23:52</TimeEnd>
+            </t6>
+            <t7 name="Sun">
+                <TimeStart>23:52</TimeStart>
+                <TimeEnd>00:42</TimeEnd>
+            </t7>
+            <t8 name="Venus">
+                <TimeStart>00:42</TimeStart>
+                <TimeEnd>01:32</TimeEnd>
+            </t8>
+            <t9 name="Mercury">
+                <TimeStart>01:32</TimeStart>
+                <TimeEnd>02:23</TimeEnd>
+            </t9>
+            <t10 name="Moon">
+                <TimeStart>02:23</TimeStart>
+                <TimeEnd>03:13</TimeEnd>
+            </t10>
+            <t11 name="Saturn">
+                <TimeStart>03:13</TimeStart>
+                <TimeEnd>04:03</TimeEnd>
+            </t11>
+            <t12 name="Jupiter">
+                <TimeStart>04:03</TimeStart>
+                <TimeEnd>04:54</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Monday>
+    <Tuesday>
+        <Daytime>
+            <t1 name="Mars">
+                <TimeStart>04:54</TimeStart>
+                <TimeEnd>06:03</TimeEnd>
+            </t1>
+            <t2 name="Sun">
+                <TimeStart>06:03</TimeStart>
+                <TimeEnd>07:13</TimeEnd>
+            </t2>
+            <t3 name="Venus">
+                <TimeStart>07:13</TimeStart>
+                <TimeEnd>08:23</TimeEnd>
+            </t3>
+            <t4 name="Mercury">
+                <TimeStart>08:23</TimeStart>
+                <TimeEnd>09:33</TimeEnd>
+            </t4>
+            <t5 name="Moon">
+                <TimeStart>09:33</TimeStart>
+                <TimeEnd>10:42</TimeEnd>
+            </t5>
+            <t6 name="Saturn">
+                <TimeStart>10:42</TimeStart>
+                <TimeEnd>11:52</TimeEnd>
+            </t6>
+            <t7 name="Jupiter">
+                <TimeStart>11:52</TimeStart>
+                <TimeEnd>13:02</TimeEnd>
+            </t7>
+            <t8 name="Mars">
+                <TimeStart>13:02</TimeStart>
+                <TimeEnd>14:12</TimeEnd>
+            </t8>
+            <t9 name="Sun">
+                <TimeStart>14:12</TimeStart>
+                <TimeEnd>15:21</TimeEnd>
+            </t9>
+            <t10 name="Venus">
+                <TimeStart>15:21</TimeStart>
+                <TimeEnd>16:31</TimeEnd>
+            </t10>
+            <t11 name="Mercury">
+                <TimeStart>16:31</TimeStart>
+                <TimeEnd>17:41</TimeEnd>
+            </t11>
+            <t12 name="Moon">
+                <TimeStart>17:41</TimeStart>
+                <TimeEnd>18:51</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Saturn">
+                <TimeStart>16:57</TimeStart>
+                <TimeEnd>18:06</TimeEnd>
+            </t1>
+            <t2 name="Jupiter">
+                <TimeStart>18:06</TimeStart>
+                <TimeEnd>19:15</TimeEnd>
+            </t2>
+            <t3 name="Mars">
+                <TimeStart>19:15</TimeStart>
+                <TimeEnd>20:24</TimeEnd>
+            </t3>
+            <t4 name="Sun">
+                <TimeStart>20:24</TimeStart>
+                <TimeEnd>21:33</TimeEnd>
+            </t4>
+            <t5 name="Venus">
+                <TimeStart>21:33</TimeStart>
+                <TimeEnd>22:42</TimeEnd>
+            </t5>
+            <t6 name="Mercury">
+                <TimeStart>22:42</TimeStart>
+                <TimeEnd>23:51</TimeEnd>
+            </t6>
+            <t7 name="Moon">
+                <TimeStart>23:51</TimeStart>
+                <TimeEnd>01:00</TimeEnd>
+            </t7>
+            <t8 name="Saturn">
+                <TimeStart>01:00</TimeStart>
+                <TimeEnd>02:09</TimeEnd>
+            </t8>
+            <t9 name="Jupiter">
+                <TimeStart>02:09</TimeStart>
+                <TimeEnd>03:18</TimeEnd>
+            </t9>
+            <t10 name="Mars">
+                <TimeStart>03:18</TimeStart>
+                <TimeEnd>04:27</TimeEnd>
+            </t10>
+            <t11 name="Sun">
+                <TimeStart>04:27</TimeStart>
+                <TimeEnd>05:36</TimeEnd>
+            </t11>
+            <t12 name="Venus">
+                <TimeStart>05:36</TimeStart>
+                <TimeEnd>06:45</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Tuesday>
+    <Wednesday>
+        <Daytime>
+            <t1 name="Mercury">
+                <TimeStart>06:44</TimeStart>
+                <TimeEnd>07:35</TimeEnd>
+            </t1>
+            <t2 name="Moon">
+                <TimeStart>07:35</TimeStart>
+                <TimeEnd>08:26</TimeEnd>
+            </t2>
+            <t3 name="Saturn">
+                <TimeStart>08:26</TimeStart>
+                <TimeEnd>09:17</TimeEnd>
+            </t3>
+            <t4 name="Jupiter">
+                <TimeStart>09:17</TimeStart>
+                <TimeEnd>10:08</TimeEnd>
+            </t4>
+            <t5 name="Mars">
+                <TimeStart>10:08</TimeStart>
+                <TimeEnd>10:59</TimeEnd>
+            </t5>
+            <t6 name="Sun">
+                <TimeStart>10:59</TimeStart>
+                <TimeEnd>11:50</TimeEnd>
+            </t6>
+            <t7 name="Venus">
+                <TimeStart>11:50</TimeStart>
+                <TimeEnd>12:41</TimeEnd>
+            </t7>
+            <t8 name="Mercury">
+                <TimeStart>12:41</TimeStart>
+                <TimeEnd>13:32</TimeEnd>
+            </t8>
+            <t9 name="Moon">
+                <TimeStart>13:32</TimeStart>
+                <TimeEnd>14:23</TimeEnd>
+            </t9>
+            <t10 name="Saturn">
+                <TimeStart>14:23</TimeStart>
+                <TimeEnd>15:14</TimeEnd>
+            </t10>
+            <t11 name="Jupiter">
+                <TimeStart>15:14</TimeStart>
+                <TimeEnd>16:05</TimeEnd>
+            </t11>
+            <t12 name="Mars">
+                <TimeStart>16:05</TimeStart>
+                <TimeEnd>16:57</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Sun">
+                <TimeStart>16:57</TimeStart>
+                <TimeEnd>18:06</TimeEnd>
+            </t1>
+            <t2 name="Venus">
+                <TimeStart>18:06</TimeStart>
+                <TimeEnd>19:15</TimeEnd>
+            </t2>
+            <t3 name="Mercury">
+                <TimeStart>19:15</TimeStart>
+                <TimeEnd>20:24</TimeEnd>
+            </t3>
+            <t4 name="Moon">
+                <TimeStart>20:24</TimeStart>
+                <TimeEnd>21:33</TimeEnd>
+            </t4>
+            <t5 name="Saturn">
+                <TimeStart>21:33</TimeStart>
+                <TimeEnd>22:42</TimeEnd>
+            </t5>
+            <t6 name="Jupiter">
+                <TimeStart>22:42</TimeStart>
+                <TimeEnd>23:51</TimeEnd>
+            </t6>
+            <t7 name="Mars">
+                <TimeStart>23:51</TimeStart>
+                <TimeEnd>01:00</TimeEnd>
+            </t7>
+            <t8 name="Sun">
+                <TimeStart>01:00</TimeStart>
+                <TimeEnd>02:09</TimeEnd>
+            </t8>
+            <t9 name="Venus">
+                <TimeStart>02:09</TimeStart>
+                <TimeEnd>03:18</TimeEnd>
+            </t9>
+            <t10 name="Mercury">
+                <TimeStart>03:18</TimeStart>
+                <TimeEnd>04:27</TimeEnd>
+            </t10>
+            <t11 name="Moon">
+                <TimeStart>04:27</TimeStart>
+                <TimeEnd>05:36</TimeEnd>
+            </t11>
+            <t12 name="Saturn">
+                <TimeStart>05:36</TimeStart>
+                <TimeEnd>06:45</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Wednesday>
+    <Thursday>
+        <Daytime>
+            <t1 name="Jupiter">
+                <TimeStart>06:45</TimeStart>
+                <TimeEnd>07:36</TimeEnd>
+            </t1>
+            <t2 name="Mars">
+                <TimeStart>07:36</TimeStart>
+                <TimeEnd>08:27</TimeEnd>
+            </t2>
+            <t3 name="Sun">
+                <TimeStart>08:27</TimeStart>
+                <TimeEnd>09:18</TimeEnd>
+            </t3>
+            <t4 name="Venus">
+                <TimeStart>09:18</TimeStart>
+                <TimeEnd>10:09</TimeEnd>
+            </t4>
+            <t5 name="Mercury">
+                <TimeStart>10:09</TimeStart>
+                <TimeEnd>11:00</TimeEnd>
+            </t5>
+            <t6 name="Moon">
+                <TimeStart>11:00</TimeStart>
+                <TimeEnd>11:51</TimeEnd>
+            </t6>
+            <t7 name="Saturn">
+                <TimeStart>11:51</TimeStart>
+                <TimeEnd>12:42</TimeEnd>
+            </t7>
+            <t8 name="Jupiter">
+                <TimeStart>12:42</TimeStart>
+                <TimeEnd>13:33</TimeEnd>
+            </t8>
+            <t9 name="Mars">
+                <TimeStart>13:33</TimeStart>
+                <TimeEnd>14:24</TimeEnd>
+            </t9>
+            <t10 name="Sun">
+                <TimeStart>14:24</TimeStart>
+                <TimeEnd>15:15</TimeEnd>
+            </t10>
+            <t11 name="Venus">
+                <TimeStart>15:15</TimeStart>
+                <TimeEnd>16:06</TimeEnd>
+            </t11>
+            <t12 name="Mercury">
+                <TimeStart>16:06</TimeStart>
+                <TimeEnd>16:58</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Moon">
+                <TimeStart>17:39</TimeStart>
+                <TimeEnd>18:43</TimeEnd>
+            </t1>
+            <t2 name="Saturn">
+                <TimeStart>18:43</TimeStart>
+                <TimeEnd>19:48</TimeEnd>
+            </t2>
+            <t3 name="Jupiter">
+                <TimeStart>19:48</TimeStart>
+                <TimeEnd>20:53</TimeEnd>
+            </t3>
+            <t4 name="Mars">
+                <TimeStart>20:53</TimeStart>
+                <TimeEnd>21:58</TimeEnd>
+            </t4>
+            <t5 name="Sun">
+                <TimeStart>21:58</TimeStart>
+                <TimeEnd>23:03</TimeEnd>
+            </t5>
+            <t6 name="Venus">
+                <TimeStart>23:03</TimeStart>
+                <TimeEnd>00:08</TimeEnd>
+            </t6>
+            <t7 name="Mercury">
+                <TimeStart>00:08</TimeStart>
+                <TimeEnd>01:13</TimeEnd>
+            </t7>
+            <t8 name="Moon">
+                <TimeStart>01:13</TimeStart>
+                <TimeEnd>02:18</TimeEnd>
+            </t8>
+            <t9 name="Saturn">
+                <TimeStart>02:18</TimeStart>
+                <TimeEnd>03:23</TimeEnd>
+            </t9>
+            <t10 name="Jupiter">
+                <TimeStart>03:23</TimeStart>
+                <TimeEnd>04:28</TimeEnd>
+            </t10>
+            <t11 name="Mars">
+                <TimeStart>04:28</TimeStart>
+                <TimeEnd>05:33</TimeEnd>
+            </t11>
+            <t12 name="Sun">
+                <TimeStart>05:33</TimeStart>
+                <TimeEnd>06:38</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Thursday>
+    <Friday>
+        <Daytime>
+            <t1 name="Venus">
+                <TimeStart>05:49</TimeStart>
+                <TimeEnd>06:48</TimeEnd>
+            </t1>
+            <t2 name="Mercury">
+                <TimeStart>06:48</TimeStart>
+                <TimeEnd>07:47</TimeEnd>
+            </t2>
+            <t3 name="Moon">
+                <TimeStart>07:47</TimeStart>
+                <TimeEnd>08:46</TimeEnd>
+            </t3>
+            <t4 name="Saturn">
+                <TimeStart>08:46</TimeStart>
+                <TimeEnd>09:45</TimeEnd>
+            </t4>
+            <t5 name="Jupiter">
+                <TimeStart>09:45</TimeStart>
+                <TimeEnd>10:44</TimeEnd>
+            </t5>
+            <t6 name="Mars">
+                <TimeStart>10:44</TimeStart>
+                <TimeEnd>11:44</TimeEnd>
+            </t6>
+            <t7 name="Sun">
+                <TimeStart>11:44</TimeStart>
+                <TimeEnd>12:43</TimeEnd>
+            </t7>
+            <t8 name="Venus">
+                <TimeStart>12:43</TimeStart>
+                <TimeEnd>13:42</TimeEnd>
+            </t8>
+            <t9 name="Mercury">
+                <TimeStart>13:42</TimeStart>
+                <TimeEnd>14:41</TimeEnd>
+            </t9>
+            <t10 name="Moon">
+                <TimeStart>14:41</TimeStart>
+                <TimeEnd>15:40</TimeEnd>
+            </t10>
+            <t11 name="Saturn">
+                <TimeStart>15:40</TimeStart>
+                <TimeEnd>16:39</TimeEnd>
+            </t11>
+            <t12 name="Jupiter">
+                <TimeStart>16:39</TimeStart>
+                <TimeEnd>17:39</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Mars">
+                <TimeStart>16:58</TimeStart>
+                <TimeEnd>18:07</TimeEnd>
+            </t1>
+            <t2 name="Sun">
+                <TimeStart>18:07</TimeStart>
+                <TimeEnd>19:16</TimeEnd>
+            </t2>
+            <t3 name="Venus">
+                <TimeStart>19:16</TimeStart>
+                <TimeEnd>20:25</TimeEnd>
+            </t3>
+            <t4 name="Mercury">
+                <TimeStart>20:25</TimeStart>
+                <TimeEnd>21:34</TimeEnd>
+            </t4>
+            <t5 name="Moon">
+                <TimeStart>21:34</TimeStart>
+                <TimeEnd>22:43</TimeEnd>
+            </t5>
+            <t6 name="Saturn">
+                <TimeStart>22:43</TimeStart>
+                <TimeEnd>23:52</TimeEnd>
+            </t6>
+            <t7 name="Jupiter">
+                <TimeStart>23:52</TimeStart>
+                <TimeEnd>01:01</TimeEnd>
+            </t7>
+            <t8 name="Mars">
+                <TimeStart>01:01</TimeStart>
+                <TimeEnd>02:10</TimeEnd>
+            </t8>
+            <t9 name="Sun">
+                <TimeStart>02:10</TimeStart>
+                <TimeEnd>03:19</TimeEnd>
+            </t9>
+            <t10 name="Venus">
+                <TimeStart>03:19</TimeStart>
+                <TimeEnd>04:28</TimeEnd>
+            </t10>
+            <t11 name="Mercury">
+                <TimeStart>04:28</TimeStart>
+                <TimeEnd>05:37</TimeEnd>
+            </t11>
+            <t12 name="Moon">
+                <TimeStart>05:37</TimeStart>
+                <TimeEnd>06:46</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Friday>
+    <Saturday>
+        <Daytime>
+            <t1 name="Saturn">
+                <TimeStart>04:55</TimeStart>
+                <TimeEnd>06:04</TimeEnd>
+            </t1>
+            <t2 name="Jupiter">
+                <TimeStart>06:04</TimeStart>
+                <TimeEnd>07:14</TimeEnd>
+            </t2>
+            <t3 name="Mars">
+                <TimeStart>07:14</TimeStart>
+                <TimeEnd>08:23</TimeEnd>
+            </t3>
+            <t4 name="Sun">
+                <TimeStart>08:23</TimeStart>
+                <TimeEnd>09:33</TimeEnd>
+            </t4>
+            <t5 name="Venus">
+                <TimeStart>09:33</TimeStart>
+                <TimeEnd>10:42</TimeEnd>
+            </t5>
+            <t6 name="Mercury">
+                <TimeStart>10:42</TimeStart>
+                <TimeEnd>11:52</TimeEnd>
+            </t6>
+            <t7 name="Moon">
+                <TimeStart>11:52</TimeStart>
+                <TimeEnd>13:01</TimeEnd>
+            </t7>
+            <t8 name="Saturn">
+                <TimeStart>13:01</TimeStart>
+                <TimeEnd>14:11</TimeEnd>
+            </t8>
+            <t9 name="Jupiter">
+                <TimeStart>14:11</TimeStart>
+                <TimeEnd>15:20</TimeEnd>
+            </t9>
+            <t10 name="Mars">
+                <TimeStart>15:20</TimeStart>
+                <TimeEnd>16:30</TimeEnd>
+            </t10>
+            <t11 name="Sun">
+                <TimeStart>16:30</TimeStart>
+                <TimeEnd>17:39</TimeEnd>
+            </t11>
+            <t12 name="Venus">
+                <TimeStart>17:39</TimeStart>
+                <TimeEnd>18:49</TimeEnd>
+            </t12>
+        </Daytime>
+        <Nighttime>
+            <t1 name="Mercury">
+                <TimeStart>18:49</TimeStart>
+                <TimeEnd>19:39</TimeEnd>
+            </t1>
+            <t2 name="Moon">
+                <TimeStart>19:39</TimeStart>
+                <TimeEnd>20:29</TimeEnd>
+            </t2>
+            <t3 name="Saturn">
+                <TimeStart>20:29</TimeStart>
+                <TimeEnd>21:20</TimeEnd>
+            </t3>
+            <t4 name="Jupiter">
+                <TimeStart>21:20</TimeStart>
+                <TimeEnd>22:10</TimeEnd>
+            </t4>
+            <t5 name="Mars">
+                <TimeStart>22:10</TimeStart>
+                <TimeEnd>23:01</TimeEnd>
+            </t5>
+            <t6 name="Sun">
+                <TimeStart>23:01</TimeStart>
+                <TimeEnd>23:51</TimeEnd>
+            </t6>
+            <t7 name="Venus">
+                <TimeStart>23:51</TimeStart>
+                <TimeEnd>00:41</TimeEnd>
+            </t7>
+            <t8 name="Mercury">
+                <TimeStart>00:41</TimeStart>
+                <TimeEnd>01:32</TimeEnd>
+            </t8>
+            <t9 name="Moon">
+                <TimeStart>01:32</TimeStart>
+                <TimeEnd>02:22</TimeEnd>
+            </t9>
+            <t10 name="Saturn">
+                <TimeStart>02:22</TimeStart>
+                <TimeEnd>03:13</TimeEnd>
+            </t10>
+            <t11 name="Jupiter">
+                <TimeStart>03:13</TimeStart>
+                <TimeEnd>04:03</TimeEnd>
+            </t11>
+            <t12 name="Mars">
+                <TimeStart>04:03</TimeStart>
+                <TimeEnd>04:54</TimeEnd>
+            </t12>
+        </Nighttime>
+    </Saturday>
+</Days>
