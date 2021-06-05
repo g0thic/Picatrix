@@ -1,6 +1,4 @@
 #!/usr/bin/python
-import Sunrise
-import Sunset
 import datetime
 import SunriseClass
 import SunsetClass
