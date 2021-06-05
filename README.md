@@ -7,4 +7,6 @@ UNZIP THE C:\PICATRIX\AUDIO files
 INSTALL PYTHON
 RUN THE MAIN.PY USING COMMAND LINE (CMD)
 
-use to cure magic/demons ( لعلاج السحر )
+use to cure magic and repel demons 
+يستخدم البرنامج لعلاج السحر و طرد الشياطين
+
