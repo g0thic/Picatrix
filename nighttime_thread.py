@@ -41,18 +41,18 @@ class nighttime_thread(threading.Thread):
                 mins = int(datetime.datetime.now().strftime("%M"))
                 hours =int( datetime.datetime.now().strftime("%H"))
                 t = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
-                print("Time left for next hour: ", t.time().strftime("%H:%M"))
                 t = (int(t.strftime("%H"))*3600) + (int(t.strftime("%M")) * 60)
             except:
                 print(datetime.datetime.now())
                 print("Error Nighttime_thread time difference error")
-                t = 3600
+                #t = 3600
             #print(t)
-            time.sleep(t+(120))
+            #time.sleep(t+(120))
             #t = datetime.datetime.min + t
             #t = (int(t.strftime("%M")) * 60) + (int(t.strftime("%H")) * 3600)
             #time.sleep(t)
 
+    
 
     def play_audio(self):
         path = os.path.dirname(sys.executable)
@@ -64,10 +64,48 @@ class nighttime_thread(threading.Thread):
         audiopath = "C:\\Picatrix\Audio\\"+self.day_name+"\\Nighttime\\"+self.planet['name']+"\\list.wpl"
         exist = os.path.isfile(audiopath)
         if exist:
-            subprocess.Popen(wmpath+" "+audiopath)
+            try:
+                subprocess.Popen(wmpath+" "+audiopath)
+            except:
+                print()
+
             print("Hour starts at: ["+ self.timestart.strftime("%H:%M")+ "] , Hour ends at: ["+ self.timeend.strftime("%H:%M")+
                   "] , Planet:[" + self.planet['name']+"]")
+
+            mins = int(datetime.datetime.now().strftime("%M"))
+            hours =int( datetime.datetime.now().strftime("%H"))
+            t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
+            t0 = datetime.datetime.now()
+
+            t0 = datetime.datetime.now().replace(hour=0, minute=0, second=1)
+            while True:
+                mins = int(datetime.datetime.now().strftime("%M"))
+                hours =int( datetime.datetime.now().strftime("%H"))
+                t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
+                print("Time left: ", t1.time().strftime("%H:%M"), end="\r")
+                if t1 <= t0:
+                    break
+            
         else:
+            try:
+                subprocess.Popen.terminate(wmpath)
+            finally:
+                print()
+            mins = int(datetime.datetime.now().strftime("%M"))
+            hours = int(datetime.datetime.now().strftime("%H"))
+
+            # t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
+            t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
+            # t0 = self.timeend - self.timeend
+            t0 = datetime.datetime.now().replace(hour=0, minute=0, second=1)
+
+            while True:
+                mins = int(datetime.datetime.now().strftime("%M"))
+                hours = int(datetime.datetime.now().strftime("%H"))
+                t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
+                print("Time left for next hour: ", t1.time().strftime("%H:%M"), end="\r")
+                if t1 <= t0:
+                    break
             print("Hour starts at: [", self.timestart.strftime("%H:%M"), "] , Hour ends at: [", self.timeend.strftime("%H:%M"), "] , Planet:[", self.planet['name'], "]",
                   " --No Audio--")
 
