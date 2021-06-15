@@ -89,6 +89,8 @@ class nighttime_thread(threading.Thread):
         else:
             try:
                 subprocess.Popen.terminate(wmpath)
+            except:
+                print()
             finally:
                 print()
             mins = int(datetime.datetime.now().strftime("%M"))

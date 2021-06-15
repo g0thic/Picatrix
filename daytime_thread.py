@@ -91,6 +91,8 @@ class daytime_thread(threading.Thread):
                 subprocess.Popen.terminate(wmpath)
             except:
                 print()
+            finally:
+                print()
             print("Hour starts at:[", self.timestart.strftime("%H:%M"), "] , Hour end:[", self.timeend.strftime("%H:%M"), "] , Planet:[", self.planet['name'],"]",
                   " --No Audio--")
             mins = int(datetime.datetime.now().strftime("%M"))
