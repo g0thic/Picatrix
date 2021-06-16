@@ -84,6 +84,7 @@ class daytime_thread(threading.Thread):
                 hours =int( datetime.datetime.now().strftime("%H"))
                 t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
                 print("Time left: ", t1.time().strftime("%H:%M"), end="\r")
+                time.sleep(1)
                 if t1 <= t0:
                     break
         else:
@@ -108,6 +109,7 @@ class daytime_thread(threading.Thread):
                 hours = int(datetime.datetime.now().strftime("%H"))
                 t1 = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
                 print("Time left for next hour: ", t1.time().strftime("%H:%M"), end="\r")
+                time.sleep(1)
                 if t1 <= t0:
                     break
 
