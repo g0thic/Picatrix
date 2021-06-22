@@ -11,8 +11,8 @@ RUN THE MAIN.PY USING COMMAND LINE (CMD)
 
 File Structrure
 
-C:\Picatrix
-C:\Picatrix\main.py
+C:\Picatrix                                                                                                                                                                         
+C:\Picatrix\main.py                                                                                                                                                                 
 C:\Picatrix\daytime_thread.py
 C:\Picatrix\nighttime_thread.py
 C:\Picatrix\SunriseClass.py
