@@ -11,15 +11,15 @@ RUN THE MAIN.PY USING COMMAND LINE (CMD)
 
 File Structrure
 
-C:\Picatrix                                                                                                                                                                         
-C:\Picatrix\main.py                                                                                                                                                                 
-C:\Picatrix\daytime_thread.py                                                                                                                                                       
-C:\Picatrix\nighttime_thread.py                                                                                                                                                     
-C:\Picatrix\SunriseClass.py
-C:\Picatrix\SunsetClass.py                                                                                                                                                         
-C:\Picatrix\weekdays.xml                                                                                                                                                          
-C:\Picatrix\Audio                                                                                                                                                                   
-C:\Picatrix\Audio\Sunday                                                                                                                                                          
-C:\Picatrix\Audio\Sunday\Daytime                                                                                                                                                   
-C:\Picatrix\Audio\Sunday\Nighttime                                                                                                                                                 
+C:\Quran                                                                                                                                                                       
+C:\Quran\main.py                                                                                                                                                                 
+C:\Quran\daytime_thread.py                                                                                                                                                       
+C:\Quran\nighttime_thread.py                                                                                                                                                     
+C:\Quran\SunriseClass.py
+C:\Quran\SunsetClass.py                                                                                                                                                         
+C:\Quran\weekdays.xml                                                                                                                                                          
+C:\Quran\Audio                                                                                                                                                                   
+C:\Quran\Audio\Sunday                                                                                                                                                          
+C:\Quran\Audio\Sunday\Daytime                                                                                                                                                   
+C:\Quran\Audio\Sunday\Nighttime                                                                                                                                                 
 
