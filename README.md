@@ -2,8 +2,8 @@
 Quran IS AN APP THAT PLAYS QURAN AUTOMATICALLY USING WINDOWS MEDIA PLAYER WRITTEN IN PYTHON 
 
 TO MAKE THINGS WORK:                                                                                                                                                               
-PLACE THE PICATRIX FOLDER IN THE "C:\" DRIVE   "C:\PICATRIX"                                                                                                                       
-UNZIP THE C:\PICATRIX\Audio files                                                                                                                                                   
+PLACE THE PICATRIX FOLDER IN THE "C:\" DRIVE   "C:\Quran"                                                                                                                       
+UNZIP THE C:\Quran\Audio files                                                                                                                                                   
 INSTALL PYTHON                                                                                                                                                                     
 RUN THE MAIN.PY USING COMMAND LINE (CMD)                                                                                                                                           
 
