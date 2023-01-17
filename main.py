@@ -12,36 +12,8 @@ import time
 
 def main():
 
-
-    #f = (datetime.datetime.min + datetime.timedelta(hours=00)).time()
-   # print(time.gmtime(time.time()))
-   # print(time.asctime(time.gmtime(time.time())))
-   # year = time.gmtime(time.time()).tm_year
-  #  month = time.gmtime(time.time()).tm_mon
-  # day = time.gmtime(time.time()).tm_mday
-  #  hour = time.gmtime(time.time()).tm_hour
-  #  min = time.gmtime(time.time()).tm_min
- #   sec = time.gmtime(time.time()).tm_sec
-
-   # datetime_pointer = datetime.datetime(int(year), int(month), int(day), int(hour), int(min), int(sec),0, None)
-
-
-    #getSunriseSunset()
-    #calculate_sunrisetime()
-    #get_next_sunrise()
-    #calculate_sunsettime()
     global days
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    #day_name = days[datetime.datetime.now().weekday()]
-    #print("Today date: ", day_name, datetime_pointer.date())
-   # print("Time now: ", datetime.datetime.now().time())
-   # print("Day-time hour length: ", day_hour_length)
-   # print("Today Sunrise: ", currentSunrise)
-   # print("Today Sunset: ", currentSunset)
-   # print("Tomorrow Sunrise: ", next_sunrise)
-   # print("Night-time hour length: ", night_hour_length)
-
-    #if time_now >= currentSunset and time_now < next_sunrise:
     daytime = None
     nighttime = None
     while True:
@@ -93,25 +65,6 @@ def main():
                                                               night_hour_length)
             if not nighttime.is_alive():
                 nighttime.start()
-
-
-  #  daytime = daytime_thread.daytime_thread("weekdays.xml",day_name,currentSunrise, currentSunset, day_hour_length)
-  #  daytime.run()
-
-
-
-
-
-
-
-
-    hi = input("press any key")
-    # result = sr.sunrise(int(dt.strftime("%m")),int( dt.strftime("%Y")),int(dt.strftime("%d")))
-    #print(dt.year)
-    #result = Sunrise.sunrise(int(dt.strftime("%m")),int( dt.strftime("%Y")),int(dt.strftime("%d")))
-    #Sunset.sunset(int(dt.strftime("%m")), int(dt.strftime("%Y")),int(dt.strftime("%d")))
-    # Sunrise.sunrise(int(dt.strftime("%m")),int( dt.strftime("%Y")),int(dt.strftime("%d")))
-
 
 
 
@@ -197,4 +150,9 @@ def getSunriseSunset(month=None, year=None, day=None):
     del ss
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except:
+        print("...?!")
+    finally:
+        exit()
