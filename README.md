@@ -1,9 +1,9 @@
 # Quran
-                                                                                                                                                             
-copy THE Quran FOLDER IN THE "C:\" DRIVE   "C:\Quran"                                                                                                                       
-UNZIP  C:\Quran\Audio files                                                                                                                                                   
-INSTALL PYTHON                                                                                                                                                                     
-RUN main.py USING COMMAND LINE (CMD)                                                                                                                                           
+        
+
+copy "Quran" folder to "C:\"                                                                                                                       
+unzip audio files  C:\Quran\Audio files                                                                                                                                   install python                                                                                                                                                           
+run main.py file                                                                                                                                      
 
 
 
@@ -17,5 +17,4 @@ C:\Quran\SunriseClass.py
 
 C:\Quran\SunsetClass.py                                                                                                                                                         
 C:\Quran\weekdays.xml                                                                                                                                                          
-C:\Quran\Audio                                                                                                                                                                   
-C:\Quran\Audio\Sunday                                                                                                                                                                                                                                                                                                          
+C:\Quran\Audio                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
