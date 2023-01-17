@@ -1,10 +1,9 @@
 # Quran
-
-TO MAKE THINGS WORK:                                                                                                                                                               
-PLACE THE Quran FOLDER IN THE "C:\" DRIVE   "C:\Quran"                                                                                                                       
-UNZIP THE C:\Quran\Audio files                                                                                                                                                   
+                                                                                                                                                             
+copy THE Quran FOLDER IN THE "C:\" DRIVE   "C:\Quran"                                                                                                                       
+UNZIP  C:\Quran\Audio files                                                                                                                                                   
 INSTALL PYTHON                                                                                                                                                                     
-RUN THE MAIN.PY USING COMMAND LINE (CMD)                                                                                                                                           
+RUN main.py USING COMMAND LINE (CMD)                                                                                                                                           
 
 
 
