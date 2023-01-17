@@ -68,6 +68,8 @@ class daytime_thread(threading.Thread):
         if exist:
             try:
                 subprocess.Popen(wmpath+" "+audiopath)
+            except:
+                print()
             finally:
                 print()
             print("Hour starts at:[", self.timestart.strftime("%H:%M"), "] , Hour end:[", self.timeend.strftime("%H:%M"), "] , Planet:[", self.planet['name'],"]")
