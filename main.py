@@ -68,27 +68,6 @@ def main():
 
 
 
-
-
-def testxml():
-    tree = ET.parse('weekdays.xml')
-    root = tree.getroot()
-    element = root.find('Sunday')
-    print(element.tag)
-    for child in element:
-        print(child.tag)
-        c = element.find(child.tag, child.attrib)
-        for cc in c:
-            print(cc.tag, cc.attrib)
-            v = child.find(cc.tag)
-            for vv in v:
-                if vv.tag == "TimeStart":
-                    vv.text = "4:40"
-                elif vv.tag == "TimeEnd":
-                    vv.text = "11:11"
-                print(vv.tag, vv.text)
-    tree.write('weekdays.xml')
-
 def check_day_night(dt = None):
     global isDaytime
     if dt is None:
