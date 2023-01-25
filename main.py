@@ -7,6 +7,7 @@ import daytime_thread
 import nighttime_thread
 import os
 import time
+import sys
 
 
 
@@ -131,7 +132,7 @@ def getSunriseSunset(month=None, year=None, day=None):
 if __name__ == '__main__':
     try:
         main()
-    except:
+    except BaseException:
         print("...?!")
     finally:
-        exit()
+        sys.exit()
