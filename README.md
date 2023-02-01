@@ -1,4 +1,4 @@
-# Quran
+# Quran [![CodeFactor](https://www.codefactor.io/repository/github/g0thic/quran/badge)](https://www.codefactor.io/repository/github/g0thic/quran)
         
 
 copy "Quran" folder to "C:\"                                                                                                                       
