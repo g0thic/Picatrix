@@ -32,7 +32,7 @@ def main():
                 if nighttime is not None:
                     nighttime.end_thread()
                     nighttime = None
-            except:
+            except BaseException as e:
                 nighttime = None
             if not daytime.is_alive():
                 daytime.start()  # daytime.run()
@@ -45,7 +45,7 @@ def main():
                 if daytime is not None:
                     daytime.end_thread()
                     daytime = None
-            except:
+            except BaseException as e:
                 daytime = None
             if not nighttime.is_alive():
                 nighttime.start()  # nighttime.run()
@@ -53,7 +53,7 @@ def main():
         elif check_day_night() == -1:
             try:
                 day_name = days[datetime.datetime.now().weekday() - 1]
-            except:
+            except BaseException as e:
                 day_name = days[6]
             try:
                 if daytime is not None:
