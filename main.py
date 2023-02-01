@@ -59,7 +59,7 @@ def main():
                 if daytime is not None:
                     daytime.end_thread()
                     daytime = None
-            except:
+            except BaseException as e:
                 daytime = None
             if nighttime is None:
                 nighttime = nighttime_thread.nighttime_thread("weekdays.xml", day_name, currentSunset, next_sunrise,
