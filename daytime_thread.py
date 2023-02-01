@@ -46,7 +46,7 @@ class daytime_thread(threading.Thread):
                 #print("Time left for next hour: ", t.time().strftime("%H:%M"))
                 t = (int(t.strftime("%H")) * 3600) + (int(t.strftime("%M")) * 60)
 
-            except:
+            except BaseException as e:
 
                 print("Error Daytime_thread time difference error at ", datetime.datetime.now())
                 #t = 3600
@@ -68,7 +68,7 @@ class daytime_thread(threading.Thread):
         if exist:
             try:
                 subprocess.Popen(wmpath+" "+audiopath)
-            except:
+            except BaseException as e:
                 print()
             finally:
                 print()
@@ -92,7 +92,7 @@ class daytime_thread(threading.Thread):
         else:
             try:
                 subprocess.Popen.terminate(wmpath)
-            except:
+            except BaseException as e:
                 print()
             finally:
                 print()
