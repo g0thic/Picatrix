@@ -42,7 +42,7 @@ class nighttime_thread(threading.Thread):
                 hours =int( datetime.datetime.now().strftime("%H"))
                 t = self.timeend - datetime.timedelta(minutes=mins) - datetime.timedelta(hours=hours)
                 t = (int(t.strftime("%H"))*3600) + (int(t.strftime("%M")) * 60)
-            except:
+            except BaseException as e:
                 print(datetime.datetime.now())
                 print("Error Nighttime_thread time difference error")
                 #t = 3600
@@ -66,7 +66,7 @@ class nighttime_thread(threading.Thread):
         if exist:
             try:
                 subprocess.Popen(wmpath+" "+audiopath)
-            except:
+            except BaseException a e:
                 print()
 
             print("Hour starts at: ["+ self.timestart.strftime("%H:%M")+ "] , Hour ends at: ["+ self.timeend.strftime("%H:%M")+
@@ -90,7 +90,7 @@ class nighttime_thread(threading.Thread):
         else:
             try:
                 subprocess.Popen.terminate(wmpath)
-            except:
+            except BaseException as e:
                 print()
             finally:
                 print()
