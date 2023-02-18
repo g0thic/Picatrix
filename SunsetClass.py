@@ -32,7 +32,7 @@ class Sunset:
         RA = RA/15
         sinDec = 0.39782 * math.sin(L*D2R)
   
-        cosDec =   math.cos(math.asin(sinDec))
+        cosDec = math.cos(math.asin(sinDec))
         cosH = ( math.cos(90.83*D2R) - (sinDec * math.sin(latitude*D2R))) / (cosDec * math.cos(latitude*D2R))
         Hrise =(R2D * math.acos( cosH))
         
@@ -50,7 +50,7 @@ class Sunset:
         self.dt = datetime.datetime(self.year,self.month,self.day,UT.tm_hour,UT.tm_min,0,0,None)
         
     def sunset(self,month, year, day):
-        self.month  = month
+        self.month = month
         self.year = year
         self.day= day
         global R2D
