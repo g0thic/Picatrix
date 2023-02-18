@@ -11,10 +11,17 @@ import sys
 
 
 
-def main():
+global daytime
+daytime = None
+global nightime
+nighttime = None
+global days
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
+def main():
     global days
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
     daytime = None
     nighttime = None
     while True:
@@ -25,47 +32,66 @@ def main():
         day_name = days[datetime.datetime.now().weekday()]
         check_day_night()
         if check_day_night() == 1:
-            if daytime is None:
-                daytime = daytime_thread.daytime_thread("weekdays.xml", day_name, currentSunrise, currentSunset,
-                                                        day_hour_length)
-            try:
-                if nighttime is not None:
-                    nighttime.end_thread()
-                    nighttime = None
-            except BaseException as e:
-                nighttime = None
-            if not daytime.is_alive():
-                daytime.start()  # daytime.run()
+            daytime_func()
 
         elif check_day_night() == 0:
-            if nighttime is None:
-                nighttime = nighttime_thread.nighttime_thread("weekdays.xml", day_name, currentSunset, next_sunrise,
-                                                              night_hour_length)
-            try:
-                if daytime is not None:
-                    daytime.end_thread()
-                    daytime = None
-            except BaseException as e:
-                daytime = None
-            if not nighttime.is_alive():
-                nighttime.start()  # nighttime.run()
+            nightime_func()
 
         elif check_day_night() == -1:
-            try:
-                day_name = days[datetime.datetime.now().weekday() - 1]
-            except BaseException as e:
-                day_name = days[6]
-            try:
-                if daytime is not None:
-                    daytime.end_thread()
-                    daytime = None
-            except BaseException as e:
-                daytime = None
-            if nighttime is None:
-                nighttime = nighttime_thread.nighttime_thread("weekdays.xml", day_name, currentSunset, next_sunrise,
+            gaptime_func()
+                
+def gaptime_func():
+    global nighttime
+    global daytime
+    try:
+        day_name = days[datetime.datetime.now().weekday() - 1]
+    except:
+        day_name = days[6]
+    try:
+        if daytime is not None:
+            daytime.end_thread()
+            daytime = None
+    except:
+        daytime = None
+        
+    if nighttime is None:
+        nighttime = nighttime_thread.nighttime_thread("weekdays.xml", day_name, currentSunset, next_sunrise,
                                                               night_hour_length)
-            if not nighttime.is_alive():
-                nighttime.start()
+    if not nighttime.is_alive():
+        nighttime.start()
+    
+def nightime_func():
+    global nighttime
+    global daytime
+    day_name = days[datetime.datetime.now().weekday()]
+    if nighttime is None:
+        nighttime = nighttime_thread.nighttime_thread("weekdays.xml", day_name, currentSunset, next_sunrise,
+                                                              night_hour_length)
+    try:
+        if daytime is not None:
+            daytime.end_thread()
+            daytime = None
+    except:
+                daytime = None
+    if not nighttime.is_alive():
+        nighttime.start()  # nighttime.run()
+    
+def daytime_func():
+    global nighttime
+    global daytime
+    day_name = days[datetime.datetime.now().weekday()]
+    if daytime is None:
+                daytime = daytime_thread.daytime_thread("weekdays.xml", day_name, currentSunrise, currentSunset,
+                                                        day_hour_length)
+    try:
+        if nighttime is not None:
+            nighttime.end_thread()
+            nighttime = None
+    except:
+        nighttime = None
+    if not daytime.is_alive():
+        daytime.start()  # daytime.run()
+
 
 
 
