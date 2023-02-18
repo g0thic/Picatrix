@@ -45,13 +45,13 @@ def gaptime_func():
     global daytime
     try:
         day_name = days[datetime.datetime.now().weekday() - 1]
-    except:
+    except BaseException:
         day_name = days[6]
     try:
         if daytime is not None:
             daytime.end_thread()
             daytime = None
-    except:
+    except BaseException:
         daytime = None
         
     if nighttime is None:
@@ -71,7 +71,7 @@ def nightime_func():
         if daytime is not None:
             daytime.end_thread()
             daytime = None
-    except:
+    except BaseException:
                 daytime = None
     if not nighttime.is_alive():
         nighttime.start()  # nighttime.run()
@@ -87,7 +87,7 @@ def daytime_func():
         if nighttime is not None:
             nighttime.end_thread()
             nighttime = None
-    except:
+    except BaseException:
         nighttime = None
     if not daytime.is_alive():
         daytime.start()  # daytime.run()
