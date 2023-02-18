@@ -41,7 +41,7 @@ class Sunrise:
         RA = RA/15
         sinDec = 0.39782 * math.sin(L*D2R)
   
-        cosDec =   math.cos(math.asin(sinDec))
+        cosDec = math.cos(math.asin(sinDec))
         cosH = ( math.cos(90.83*D2R) - (sinDec * math.sin(latitude*D2R))) / (cosDec * math.cos(latitude*D2R))
         Hrise = 360 -(R2D * math.acos( cosH))
     
