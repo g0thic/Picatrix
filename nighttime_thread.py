@@ -45,14 +45,6 @@ class nighttime_thread(threading.Thread):
             except BaseException as e:
                 print(datetime.datetime.now())
                 print("Error Nighttime_thread time difference error")
-                #t = 3600
-            #print(t)
-            #time.sleep(t+(120))
-            #t = datetime.datetime.min + t
-            #t = (int(t.strftime("%M")) * 60) + (int(t.strftime("%H")) * 3600)
-            #time.sleep(t)
-
-    
 
     def play_audio(self):
         path = os.path.dirname(sys.executable)
