@@ -136,7 +136,6 @@ def get_next_sunrise(month=None, year=None, day=None):
         next_sunrise = sr.sunrise(month, year, day)
     del sr
 
-
 def getSunriseSunset(month=None, year=None, day=None):
     sr = SunriseClass.Sunrise()
     ss = SunsetClass.Sunset()
